@@ -1,0 +1,74 @@
+\documentclass[11pt, a4paper]{article}
+
+\usepackage[]{graphicx}
+\usepackage{epstopdf}
+\usepackage{multirow}
+%\usepackage{setspace}
+\usepackage{subfigure}
+\usepackage{color}
+\usepackage{rotating}
+\usepackage[subnum]{cases}
+%\usepackage{lscape}
+
+\usepackage{multicol}
+\usepackage{geometry}
+\geometry{top=10mm,bottom=11mm,left=15mm,right=15mm}
+
+\begin{document}
+	\begin{center}
+		\Huge{Modelling and simulation Lab}\\
+		 M.Tech 201761003\\
+		 Vijay Deshpande
+%		\normalsize{This is IIIT Vadodara}\\
+%		\tiny {This is IIIT Vadodara}\\
+	\end{center}
+%\begin{itemize}[noitemsep]
+%	\item Was responsible for \textbf{end to end delivery} of android apps. Worked on Android sdk, \textbf{Android NDK}, JNI, JSON, Webview.
+%	\item \textbf{Design Patterns Used :} Factory, MVC, Singleton, Adapter .
+%	\item Good experience with \textbf{Ad sdk's} and \textbf{Materail Design}.
+%\end{itemize}
+
+\textbf{Question 1:}	\\
+Suppose that a number of defects coming from an assembly line can be modeled
+as a Binomial counting process with frames of one-half- minute length and
+probability = 002 of a defect during each frame.\\
+a) Find the probability of going more than 20 minutes without a defect.\\
+b) Determine the arrival rate in units of defects per hour.\\
+c) If the process is stopped for inspection each time a defect is found, on average
+how long will the process run until it is stopped?	\\
+\vspace*{5mm}	\\
+\textbf{Solution: }	\\
+\textbf{a)}
+$\Delta$ = 30 seconds\\
+P = 0.02\\
+P(T>20)=P($\Delta$Y $>$ 20)\\
+\hspace*{15mm} =P(Y  $>$ 20/$\Delta$)\\	
+\hspace*{15mm} =P(Y $>$ 20/0.5)\\	
+\hspace*{15mm}   =$\Sigma_{x=1}^{40}p(1-p)^{x-1}$
+\textbf{b)}\\
+$\Delta = 0.5$\\
+$\lambda$ = ?	\\
+P = 0.02\\
+$\lambda = P/\Delta4$
+\hspace*{15mm} = 0.02/0.50\\
+
+	
+	
+	
+\vspace{5mm}
+\textbf{Question 2:}	
+Customers of a certain internet service provider connect to the internet at the
+average rate of 3 customers per minute. Assuming Binomial counting process
+with 5-second frames,\\
+a) Compute the probability of more than 10 new connections during the next 3
+minutes.\\
+b) Compute the mean and the standard deviation of the number of seconds
+between connections.	
+\vspace*{5mm}	\\
+\textbf{Solution: }	\\
+$\Delta = 0.5$\\
+$\lambda = ?	$\\
+P = 0.02\\
+
+	
+\end{document}	
